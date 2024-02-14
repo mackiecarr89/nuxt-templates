@@ -1,0 +1,28 @@
+{
+	"files": {
+		"ignore": [
+			".output/",
+			".data/",
+			".nuxt/",
+			".nitro/",
+			".cache/",
+			"dist"
+		]
+	},
+	"linter": {
+		"enabled": false
+	},
+	"javascript": {
+		"formatter": {
+			"enabled": true,
+			"indentStyle": "tab",
+			"indentWidth": 5,
+			"quoteStyle": "double",
+			"semicolons": "always",
+			"trailingComma": "all"
+		}
+	},
+	"organizeImports": {
+		"enabled": false
+	}
+}
