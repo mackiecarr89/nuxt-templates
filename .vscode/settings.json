@@ -4,5 +4,26 @@
 		"*.layout-template": "vue",
 		"*.vue": "vue",
 		"*.css": "tailwindcss"
-	}
+	},
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.maxTokenizationLineLength": 2500,
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true
 }
